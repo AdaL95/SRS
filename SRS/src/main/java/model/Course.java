@@ -108,7 +108,7 @@ public class Course {
 		return prerequisites;
 	}
 
-	public Section scheduleSection(char day, String time, String room,
+	public Section scheduleSection(String day, String time, String room,
 				       int capacity) {
 		// Create a new Section (note the creative way in
 		// which we are assigning a section number) ...
@@ -125,5 +125,10 @@ public class Course {
 
 	public void addSection(Section s) {
 		offeredAsSection.add(s);
+	}
+
+	public Section scheduleSection(char c, String time, String room, int capacity) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

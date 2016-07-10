@@ -1,13 +1,16 @@
 package dao;
 
 import java.util.HashMap;
-import java.util.List;
 
 import model.Course;
-import model.CourseCatalog;
+
 
 public interface CourseDao {
 	
-	public HashMap<String, Course> findAll();
+	 Course getCourse(Course whatErinLikes);
+	 Course addCourse(Course whatErinLikes) ;
+	 Course deleteCourse(Course whatErinLikes);
+	 Course modifyCourse(Course whatErinLikes);
+	HashMap<String, Course> findAll();
 
 }

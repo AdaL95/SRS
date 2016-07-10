@@ -14,7 +14,7 @@ public class Section {
 	//------------
 
 	private int sectionNo;
-	private char dayOfWeek;
+	private String dayOfWeek;
 	private String timeOfDay;
 	private String room;
 	private int seatingCapacity;
@@ -37,7 +37,7 @@ public class Section {
 	// Constructor(s).
 	//----------------
 
-	public Section(int sNo, char day, String time, Course course,
+	public Section(int sNo, String day, String time, Course course,
 		       String room, int capacity) {
 		setSectionNo(sNo);
 		setDayOfWeek(day);
@@ -68,11 +68,11 @@ public class Section {
 		return sectionNo;
 	}
 	
-	public void setDayOfWeek(char day) {
+	public void setDayOfWeek(String day) {
 		dayOfWeek = day;
 	}
 	
-	public char getDayOfWeek() {
+	public String getDayOfWeek() {
 		return dayOfWeek;
 	}
 		

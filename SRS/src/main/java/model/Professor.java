@@ -38,6 +38,10 @@ public class Professor extends Person {
 	// Accessor methods.
 	//----------------
 
+	public Professor() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setTitle(String title) {
 		this.title = title;
 	}

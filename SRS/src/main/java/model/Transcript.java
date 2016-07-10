@@ -32,6 +32,10 @@ public class Transcript {
 	// Accessor methods.
 	//------------------
 
+	public Transcript(String string, String string2, String string3) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setStudentOwner(Student s) {
 		studentOwner = s;
 	}

@@ -15,6 +15,7 @@ public class TranscriptEntry {
 	private Student student;
 	private Section section;
 	private Transcript transcript;
+	private String courseName;
 
 	//----------------
 	// Constructor(s).
@@ -39,6 +40,12 @@ public class TranscriptEntry {
 	//------------------
 	// Accessor methods.
 	//------------------
+
+
+
+	public TranscriptEntry() {
+		student=new Student("","","","","");
+	}
 
 	public void setStudent(Student s) {
 		student = s;
@@ -78,6 +85,14 @@ public class TranscriptEntry {
 
 	// These next two methods are declared to be static, so that they
 	// may be used as utility methods.
+
+	public String getCourseName() {
+		return courseName;
+	}
+
+	public void setCourseName(String courseName) {
+		this.courseName = courseName;
+	}
 
 	public static boolean validateGrade(String grade) {
 		boolean outcome = false;

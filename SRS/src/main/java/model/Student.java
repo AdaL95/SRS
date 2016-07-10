@@ -14,6 +14,7 @@ public class Student extends Person {
 	// Attributes.
 	//------------
 
+	private String password;
 	private String major;
 	private String degree;
 	private Transcript transcript;
@@ -23,11 +24,11 @@ public class Student extends Person {
 	// Constructor(s).
 	//----------------
 
-	public Student(String name, String ssn, String major, String degree) {
+	public Student(String name, String ssn, String password,String major, String degree) {
 		// Reuse the code of the parent's constructor.
 
-		super(name, ssn);
-
+		super(name, ssn );
+		this.setPassword(password);
 		this.setMajor(major);
 		this.setDegree(degree);
 
@@ -45,12 +46,20 @@ public class Student extends Person {
 	public Student(String ssn) {
 		// Reuse the code of the other Student constructor.
 
-		this("TBD", ssn, "TBD", "TBD");
+		this("TBD", ssn,"123", "TBD", "TBD");
 	}
 
 	//------------------
 	// Accessor methods.
 	//------------------
+
+	public void setPassword(String p) {
+		password = p;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
 
 	public void setMajor(String major) {
 		this.major = major;

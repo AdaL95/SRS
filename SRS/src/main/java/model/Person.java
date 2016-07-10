@@ -17,6 +17,7 @@ public abstract class Person {
 	private String name;
 	private String ssn;
 	
+	
 	//----------------
 	// Constructor(s).
 	//----------------
@@ -24,6 +25,7 @@ public abstract class Person {
 	public Person(String name, String ssn) {
 		this.setName(name);
 		this.setSsn(ssn);
+		
 	}
 
         public Person() {
@@ -50,7 +52,7 @@ public abstract class Person {
 	public String getSsn() {
 		return ssn;
 	}
-
+	
 	//-----------------------------
 	// Miscellaneous other methods.
 	//-----------------------------

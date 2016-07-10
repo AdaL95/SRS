@@ -40,7 +40,7 @@ public class SRS {
 		// Professors.
 		// -----------
 
-		p1 = new Professor("Jacquie Barker", "123-45-6789", 
+		p1 = new Professor("Jacquie Barker", "123-45-6789",
 				   "Adjunct Professor", "Information Technology");		
 
 		p2 = new Professor("John Smith", "567-81-2345",
@@ -60,12 +60,11 @@ public class SRS {
 		// Students.
 		// ---------
 		
-		s1 = new Student("Joe Blow", "111-11-1111", "Math", "M.S.");
+		s1 = new Student("Joe Blow", "111-11-1111","123", "Math", "M.S.");
 
-		s2 = new Student("Fred Schnurd", "222-22-2222", 
-				 "Information Technology", "Ph. D.");
+		s2 = new Student("Fred Schnurd", "222-22-2222","234","Information Technology", "Ph. D.");
 
-		s3 = new Student("Mary Smith", "333-33-3333", "Physics", "B.S.");
+		s3 = new Student("Mary Smith", "333-33-3333","345", "Physics", "B.S.");
 
 		// Add these to the appropriate ArrayList.
 
