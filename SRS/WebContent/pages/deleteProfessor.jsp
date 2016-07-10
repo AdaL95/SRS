@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Delete Course</title>
+<title>Delete Professsor</title>
 </head>
 <body>
-      <form action="../deleteCourse" method="get">
+      <form action="../deletePprofessor" method="get">
       <div class="container">
             <div class="row">
 		        
 			         <h2 class="text-center">
-				                                            删除课程
+				                                            删除教师
 			          </h2>
 		
 	   </div>
@@ -20,19 +20,14 @@
 	   <div class="row-fuid">
 	    
 	        <div class="col-md-6">
-				<lable>Input courseNo：</lable>
-				<input id="courseNo" type="text" name="courseNo"><br/>
+				<lable>Input SSN：</lable>
+				<input id="ssn" type="text" name="ssn"><br/>
 				<p>
 				<input type="submit" value="提交" /><br/><br/>
 				</p>
-				<lable><a href="addCourse.jsp">Add course</a></lable>
-				<lable><a href="searchCourse.jsp">Search course</a></lable>
-				<lable><a href="modifyCourse.jsp">Update course</a></lable>
-		     </div>
-		     </div>
-		     </div>
-		     </form>
-		     
-		         
+				</div>
+			</div>
+		</div>
+	</form>
 </body>
 </html>

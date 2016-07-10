@@ -63,7 +63,7 @@ public class courseDaoImpl implements CourseDao{
 		Connection connection = DBUtil.getSqliteConnection();
 		PreparedStatement stmt = null;
 		try {
-			stmt = connection.prepareStatement("Delete from gourse where courseNo =?");
+			stmt = connection.prepareStatement("Delete from course where courseNo =?");
 			stmt.setString(1, whatErinLikes.getCourseNo());
 			stmt.executeUpdate();
 		} catch (SQLException e) {
@@ -79,7 +79,7 @@ public class courseDaoImpl implements CourseDao{
 		}
 		return course;
 	}
-
+@Override
 	public Course modifyCourse(Course whatErinLikes){
 		
 		Course course=null;

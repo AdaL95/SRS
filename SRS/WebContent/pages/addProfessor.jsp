@@ -7,7 +7,7 @@
 <title>添加教师</title>
 </head>
 <body>
-      <form action="../addCourse" method="get">
+      <form action="../addProfessor" method="get">
       <div class="container">
             <div class="row">
 		        
