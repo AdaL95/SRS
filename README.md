@@ -1,6 +1,20 @@
 # SRS
 ####class
 ![img](https://github.com/AdaL95/SRS/blob/master/img/lei.PNG)
-
-
-#######系统尚在完善......
+#####时序1
+![img](https://github.com/AdaL95/SRS/blob/master/img/%E6%97%B6%E5%BA%8F1.PNG)
+![img](https://github.com/AdaL95/SRS/blob/master/img/%E6%97%B6%E5%BA%8F2.PNG）
+#####数据库
+![DB](https://github.com/AdaL95/SRS/blob/master/img/DB1.PNG）
+![DB](https://github.com/AdaL95/SRS/blob/master/img/DB2.PNG）
+![DB](https://github.com/AdaL95/SRS/blob/master/img/DB3.PNG）
+![DB](https://github.com/AdaL95/SRS/blob/master/img/DB4.PNG）
+![DB](https://github.com/AdaL95/SRS/blob/master/img/DB6.PNG）
+######登录
+![login](https://github.com/AdaL95/SRS/blob/master/img/login1.PNG）
+![login](https://github.com/AdaL95/SRS/blob/master/img/login2.PNG）
+![login](https://github.com/AdaL95/SRS/blob/master/img/login3.PNG）
+######课程操作
+![Course]()
+![Course]()
+![Course]()
